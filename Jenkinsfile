@@ -28,7 +28,7 @@ def utils = new io.fabric8.Utils()
 def label = "buildpod.${env.JOB_NAME}.${env.BUILD_NUMBER}".replace('-', '_').replace('/', '_')
 
 mavenNode {
-  git 'https://github.com/rawlingsj/spring-boot-webmvc.git'
+  git 'https://github.com/humaton/spring-boot-webmvc.git'
   if (utils.isCI()){
     
       mavenCI{}
