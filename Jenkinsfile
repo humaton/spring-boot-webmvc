@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-@Library('github.com/humaton/fabric8-pipeline-library@master')
+@Library('github.com/humaton/fabric8-pipeline-library@mine/master')
 
 def failIfNoTests = ""
 try {
