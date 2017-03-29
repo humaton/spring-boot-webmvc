@@ -46,8 +46,8 @@ mavenNode {
         version = canaryVersion
       }
 
-      //stage 'Rollout Staging'
-      //kubernetesApply(environment: envStage)
+      stage 'Rollout Staging'
+      kubernetesApply(environment: envStage)
 
     }
   }
